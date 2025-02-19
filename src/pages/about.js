@@ -3,6 +3,8 @@ import Link from "next/link";
 
 export default function About() {
   return (
+
+  
     <div className="min-h-screen bg-gradient-to-r from-blue-100 to-green-100 flex flex-col items-center p-6">
       <h1 className="text-4xl font-bold mb-6 text-center text-indigo-800">About Me</h1>
       <div className="w-full max-w-2xl bg-white p-6 rounded-2xl shadow-lg space-y-6">
