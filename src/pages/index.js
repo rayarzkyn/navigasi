@@ -10,38 +10,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-r from-blue-100 to-green-100 flex flex-col items-center p-6">
-      {/* Navbar */}
-      <nav className="w-full flex justify-between items-center bg-white p-4 shadow-md">
-        <h1 className="text-2xl font-bold text-indigo-800">CV Online</h1>
-
-        {/* Menu Toggle Button for Mobile */}
-        <button
-          onClick={handleMenuToggle}
-          className="lg:hidden text-2xl text-indigo-800"
-        >
-          &#9776; {/* Hamburger icon */}
-        </button>
-
-        {/* Horizontal Navbar for Desktop */}
-        <div className={`lg:flex space-x-6 ${isMenuOpen ? "block" : "hidden"} lg:block`}>
-          <Link href="/about">
-            <span className="text-lg text-indigo-700 hover:text-indigo-900">About Me</span>
-          </Link>
-          <Link href="/skills">
-            <span className="text-lg text-indigo-700 hover:text-indigo-900">Skills</span>
-          </Link>
-          <Link href="/services">
-            <span className="text-lg text-indigo-700 hover:text-indigo-900">Services</span>
-          </Link>
-          <Link href="/portfolio">
-            <span className="text-lg text-indigo-700 hover:text-indigo-900">Portfolio</span>
-          </Link>
-          <Link href="/contact">
-            <span className="text-lg text-indigo-700 hover:text-indigo-900">Contact</span>
-          </Link>
-        </div>
-      </nav>
-
+      
       {/* Konten */}
       <h2 className="text-4xl font-bold mb-6 text-center text-indigo-800">Selamat Datang di CV Saya!</h2>
       <p className="text-lg text-gray-700 text-center leading-relaxed space-y-6">
